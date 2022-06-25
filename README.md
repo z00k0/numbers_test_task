@@ -1,4 +1,4 @@
-# Тестовое задание на Django Rest Framework
+# Тестовое задание
 
 Клонирование репозитория:
 `https://github.com/z00k0/numbers_test_task.git`
