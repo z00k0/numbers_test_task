@@ -17,7 +17,7 @@
 
 `docker-compose up -d`
 
-1. Приложение получает данные из из гугл таблицы по id='1KV58tC_9yI-MO1xEofpVKu3dOh8o1c8cCCdwmAKtTMw'
+1. Приложение получает данные из из гугл таблицы по адресу [https://docs.google.com/spreadsheets/d/1KV58tC_9yI-MO1xEofpVKu3dOh8o1c8cCCdwmAKtTMw/edit#gid=0](https://docs.google.com/spreadsheets/d/1KV58tC_9yI-MO1xEofpVKu3dOh8o1c8cCCdwmAKtTMw/edit#gid=0)
 2. Добавляет данные в базу PostgreSQL, с добавлением колонки «стоимость в руб.». Стоимость USD берется с сайта cbr.ru
 3. Скрипт работает постоянно. Проверка новых записей в файле происходит раз в 60 сек. При изменении данных (добавление, удаление, изменение записей), новые данные вносятся в базу.
 4. a. Скрипт упакован в докер контейнер.
